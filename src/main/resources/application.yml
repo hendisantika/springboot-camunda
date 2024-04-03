@@ -3,7 +3,7 @@ spring:
     name: Spring Boot and Camunda BPM
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost/camunda?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta&useSSL=false
+    url: jdbc:mysql://localhost/camunda?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta&useSSL=false&allowPublicKeyRetrieval=true
     name:
     username: root
     password: root
@@ -14,7 +14,7 @@ spring:
         prepStmtCacheSqlLimit: 2048
         useServerPrepStmts: true
   jpa:
-    database-platform: org.hibernate.dialect.MySQLInnoDBDialect
+    #    database-platform: org.hibernate.dialect.MySQLInnoDBDialect
     database: MYSQL
     show_sql: true
     properties:

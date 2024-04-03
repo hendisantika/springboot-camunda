@@ -14,8 +14,8 @@ that folder.
 ## Camunda Docs
 
 This project contains set of Camunda APIs that you can use for your business models. All APIs
-are developed in background. You can find the useful docs about it on this link:
-```https://docs.camunda.org/manual/7.5/reference/rest/```
+are developed in background. You can find the useful docs about it on this
+link: https://docs.camunda.org/manual/7.5/reference/rest/
 
 
 ## ATM business process model
